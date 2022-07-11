@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px 0px;
+}
+form input,
+button {
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+form input {
+  padding: 10px 40px;
+}
+form button {
+  padding: 10px 20px;
+  background: rgb(94, 34, 224);
+  color: white;
+  cursor: pointer;
+}
+form p {
+  text-align: center;
+  margin: 15px 0px;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+form ul li {
+  list-style: none;
+  font-size: 18px;
+  margin: 20px 0px;
+  background: rgb(94, 34, 224);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
